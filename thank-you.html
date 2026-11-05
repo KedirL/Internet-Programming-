@@ -7,9 +7,29 @@
 </head>
 <body>
     <header>
-
+        <h1>Kedir Lemecha</h1>
+        <div>
+            <img src="./images/photo_2026-08-03_16-47-09.jpg" alt="kedir-image">
+        </div>
+        <nav>
+            <nav>
+            <a href="./index.html#about">About</a> |
+            <a href="./index.html#skills">Skills</a> |
+            <a href="./index.html#projects">Projects</a> |
+            <a href="./index.html#education">Education</a> |
+            <a href="./index.html#contact">Contact</a> |
+            <a href="./project.html">All Projects</a>
+            <a href="./thank-you.html">Thank you message</a>
+            </nav>
+        </nav>
     </header>
     <main>
+        <section>
+            <h1>Thank you!</h1>
+            <p>Your message has been sent. I will reply within two days.</p>
+            <p>Look at the address bar: the data you typed is in the URL.</p>
+            <p><a href="index.html">← Back to Home</a></p>
+        </section>
 
             <section>
                 <h3>Send Me Message</h3>
@@ -23,23 +43,33 @@
                         <label for="email">Email: </label>
                             <input type="email" name="email" id="email">
                             <br><br>
-                            <label for="message">Enter Your Message</label><br>
-                            <textarea name="message" id="message" width="600" height="auto"></textarea><br><br>
-                            <label for="submit">
-                                <button type="submit">Send Message</button>
-                            </label>
                     </fieldset>
+                    <fieldset>
+                        <legend>Your Message</legend>
+                        <label for="reason">Reason for contacting me:</label>
+                        <select id="reason" name="reason">
+                        <optgroup label="Work">
+                        <option value="internship">Internship offer</option>
+                        <option value="freelance">Freelance project</option>
+                        <option value="job">Full-time job</option>
+                        </optgroup>
+                        <optgroup label="Study">
+                        <option value="group-project">Group project</option>
+                        <option value="tutoring">Discussion</option>
+                        </optgroup>
+                        <option value="other">Other</option>
+                        </select>
+                        <br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                        </fieldset>
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Clear</button>
                 </form>
-                <div>
-                    <h1>Thank you!</h1>
-                    <p>Your message has been sent. I will reply within two days.</p>
-                    <p>Look at the address bar: the data you typed is in the URL.</p>
-                    <p><a href="index.html">← Back to Home</a></p>
-                </div>
             </section>
     </main>
     <footer>
-
+        &copy;2026  Kedir Lemecha  All rights reserved.
     </footer>
 </body>
 </html>
